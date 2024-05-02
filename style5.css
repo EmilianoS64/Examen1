@@ -1,0 +1,89 @@
+body{
+    
+}
+header{
+    background-color: #30318b;
+    color: white;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 3px;
+    border-radius: 30px;
+}
+header img{
+    width: 70px;
+    height: auto;
+}
+header .marca{
+    margin-left: 10px;
+    font-size: 24px;
+    font-weight: bold;
+}
+u{
+    text-decoration: none;
+    color: white;
+    font-size: large;
+    padding: 50px;
+}
+nav{
+    text-align: center;
+    text-decoration: none;
+}
+a :hover{
+    color: #75868f;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+article{
+    padding: 20px;
+    border-radius: 30px ;
+    background-color: #75868f;
+}
+
+
+.contenedor {
+    text-align: center;
+}
+
+.mensaje {
+    color: green;
+}
+
+div{
+    margin: 0;
+    padding: 80px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f2f2f2;
+    font-size: 30px;
+    border-radius: 15px;
+}
+
+
+
+.footer {
+    background-color: #505050; 
+    color: #fff; 
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-left {
+    display: flex;
+    align-items: center;
+}
+
+.footer-left a {
+    margin-right: 10px; 
+}
+
+.footer-center,
+.footer-right {
+    flex: 1; 
+    text-align: center;
+    
+}

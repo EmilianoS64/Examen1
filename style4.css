@@ -1,0 +1,120 @@
+body{
+    background-color: white;
+}
+header{
+    background-color: #30318b;
+    color: white;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 3px;
+    border-radius: 30px;
+}
+header img{
+    width: 70px;
+    height: auto;
+}
+header .marca{
+    margin-left: 10px;
+    font-size: 24px;
+    font-weight: bold;
+}
+u{
+    text-decoration: none;
+    color: white;
+    font-size: large;
+    padding: 50px;
+}
+nav{
+    text-align: center;
+    text-decoration: none;
+}
+a :hover{
+    color: #75868f;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+article{
+    padding: 20px;
+    border-radius: 30px ;
+    background-color: #75868f;
+}
+
+
+
+.imagen2 {
+    float: left; 
+    width: 14cm; 
+    height: auto; 
+    margin-right: 20px; 
+}
+.texto1 {
+    font-size: 16px; 
+}
+h2{
+    font-size: 40px;
+    color: #252524;
+}
+p{
+    color: white;
+    font-size: 15px;
+}
+h3{
+    color: #30318b;
+    font-size: 25px;
+}
+
+
+
+.mapa{
+    float: left; 
+    width: 18cm; 
+    height: auto; 
+    margin-right: 5px;
+}
+
+form {
+    max-width: 1500px;
+    margin: 0 auto;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="checkbox"],
+input[type="radio"] {
+    margin-bottom: 10px;
+}
+
+input[type="submit"],
+input[type="reset"] {
+    margin-top: 10px;
+}
+
+
+
+.footer {
+    background-color: #505050; 
+    color: #fff; 
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-left {
+    display: flex;
+    align-items: center;
+}
+
+.footer-left a {
+    margin-right: 10px; 
+}
+
+.footer-center,
+.footer-right {
+    flex: 1; 
+    text-align: center;
+    
+}
+
